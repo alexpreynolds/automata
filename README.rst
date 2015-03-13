@@ -1,4 +1,4 @@
-Automata
+automata
 --------
 
 *Automata* is a small library for generating one-dimensional, two-color cellular automata. It aims to be fast, general and portable, relying only on the C++ Standard Template Library (STL). Future revisions may add support for totalistic CA.
