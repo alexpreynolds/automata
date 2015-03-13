@@ -5,17 +5,17 @@ Automata
 
 Sample usage:
 
-```
-#include "Automata.h"
-#include <new>
-...
-try {
-        Automata *automaton = new Automata(30, false, 0);
-        automaton->fillBuffer();
-        automaton->printBuffer();
-        delete automaton;
-}
-catch (std::bad_alloc &exc) {
-        cout << exc.what() << endl;
-}
-```
+::
+
+   #include "Automata.h"
+   #include <new>
+   ...
+   try {
+       Automata *automaton = new Automata(30, false, 0);
+       automaton->fillBuffer();
+       automaton->printBuffer();
+       delete automaton;
+   }
+   catch (std::bad_alloc &exc) {
+       cout << exc.what() << endl;
+   }
